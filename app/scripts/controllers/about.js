@@ -52,10 +52,10 @@ url: null
 
 
 
-      $scope.getUsers = function () {debugger;
+      $scope.getUsers = function () {
         var userUrl = 'http://localhost:8080/api/users';
         return $http.get(userUrl)
-          .then(function (respone) {debugger;
+          .then(function (respone) {
           $scope.usersInfo =  respone.data;
           });
       };
