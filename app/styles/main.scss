@@ -2,6 +2,7 @@
 .main-header .navbar-default {
   background-color: #445b7b;
   border:none;
+  border-radius: none;
   .navbar-brand {
   color: #f0f8ff;
   }
@@ -41,8 +42,9 @@
 }
 
 .container-body{
-height: -moz-calc(100% - 50px);
-height: -webkit-calc(100% - 50px);
+/*height: -moz-calc(100% - 50px);
+height: -webkit-calc(100% - 50px);*/
+ height: calc(100vh - 130px);
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

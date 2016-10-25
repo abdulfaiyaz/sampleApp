@@ -1,0 +1,24 @@
+<div>
+ <table class="table">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Gender</td>
+        <td>Country</td>
+        <td>MobileNo</td>
+        <td>Ocupation</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="row in usersInfo">
+        <td>{{row.name}}</td>
+        <td>{{row.age}}</td>
+        <td>{{row.gender}}</td>
+        <td>{{row.country}}</td>
+        <td>{{row.mobileNo}}</td>
+        <td>{{row.ocupation}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

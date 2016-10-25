@@ -43,5 +43,27 @@ angular
             controller: 'AboutCtrl'
           }
         }
+      })
+    .state('contacts', {
+        url: '/contacts',
+        views:
+        {
+          'main':
+          {
+            templateUrl: 'views/contacts.html',
+            controller: 'ContactsCtrl'
+          }
+        }
+      })
+    .state('watch', {
+        url: '/watch',
+        views:
+        {
+          'main':
+          {
+            templateUrl: 'views/watch.html',
+            controller: 'WatchCtrl'
+          }
+        }
       });
   });
