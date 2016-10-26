@@ -29,7 +29,8 @@ angular
         {
           'main':
           {
-            templateUrl: 'views/main.html'
+            templateUrl: 'views/main.html',
+            controller:'MainCtrl'
           }
         }
       })

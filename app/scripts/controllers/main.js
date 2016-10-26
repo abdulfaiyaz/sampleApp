@@ -8,14 +8,20 @@
  * Controller of the sampleAppApp
  */
 angular.module('sampleAppApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl',['$scope', function ($scope) {
+
+   $scope.signingDetails = [];
 
     $scope.login = function() {
-    	alert("hiii");
+    	$("#loginpage").modal('show');
+    };
+
+    $scope.signup = function() {
+      $("#loginpage").modal('hide');
+      $("#signinpage").modal('show');
+    };
+
+    $scope.confirmSignIn = function() {
+          
     }
-  });
+  }]);

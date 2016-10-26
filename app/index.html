@@ -20,7 +20,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header main-header">
+    <div class="header main-header" ng-controller="MainCtrl">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -43,9 +43,13 @@
               <li><a ui-sref="contacts">Contact</a></li>
               <li><a ui-sref="watch">Watch</a></li>
             </ul>
-          </div>
+            <ul class="nav navbar-nav loginlink">
+            <li><a class="loginButton" ng-click="login()">LogIn</a></li>
+            </ul>
+          </div>       
         </div>
       </div>
+
     </div>
     <div class="container-fluid container-body">
     <div ui-view="main"></div>
@@ -92,6 +96,7 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/contacts.js"></script>
         <script src="scripts/controllers/watch.js"></script>
+        <script src="scripts/directives/carousel-slide-button.js"></script>
         <!-- endbuild -->
 </body>
 </html>

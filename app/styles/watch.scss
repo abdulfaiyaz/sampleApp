@@ -1,10 +1,81 @@
-
+ .movieCarouselContainer {
+ 	margin: auto 10%;
+ 	.myMovieCarousel{
+ 			height: 230px;
+ 	}
+.movieItem {
+ 	width:200px;
+ }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-    width: 100%;
+    width: 170px;
+    margin: 5px;
+    height: 200px;
   }
-  .movieCarouselImg > img {
+}
+.vedio-Container{
+	height: 230px;
+}
+.home-container {
+	margin: 0 5%;
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+   /* width: 100%;*/
+  }
+  .topMovieCarousel {
+  	height: 250px
+  }
+  .movieCarouselImg img {
     width: auto;
-    height: 250px;
-    max-height: 250px;
+    height: 230px;
+    max-height: 300px;
+    margin-top: 10px;
   }
+}
+/*  .movies-list-container {
+    margin: 25px 0px 25px 0px;
+    .head-cont {
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .movies-header {
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 20px;
+      color: #777;
+      .movies-type {
+        padding-right: 15px;
+      }
+      .fa-icon {
+        vertical-align: middle;
+      }
+    }*/
+  /*  .movieListCarousel,.subscriptionVideoCarousal {
+      .carousel-inner {
+        width: 90%;
+        margin: auto;
+        .fixed-panel{
+          min-height: 200px;
+          max-height: 200px;
+        }
+        .panel-body {
+          max-height: 300px;
+          overflow: hidden;
+          padding: 0px;
+        }
+        .panel-body img {
+          max-width: 100%;
+          -moz-transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+        .panel-body:hover img {
+          -moz-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
+      .carousel-control {
+        width: 0%;
+      }
+    }*/

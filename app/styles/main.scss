@@ -27,8 +27,15 @@
 .navbar-nav li > a:active {
     color:yellow;
   }
-
+ .loginlink {
+  float: right;
 }
+.navbar-nav .loginButton {
+   color: #f0f8ff;
+}
+}
+
+
 
 .carousel{
     background: #2f4357;
@@ -46,6 +53,23 @@
 height: -webkit-calc(100% - 50px);*/
  height: calc(100vh - 130px);
 }
+
+ .loginContent{
+  background-color: #445b7b !important;
+    color: #f0f8ff;
+  .login-header {
+    border: none;
+    .header-close {
+      color: #f0f8ff;
+    }
+  }
+  .login-body {
+    padding-top :0;
+  }
+  .modalButton {
+    background-color: #f0f8ff;
+  }
+} 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .footer {
