@@ -6,4 +6,9 @@
 	padding:5px;
 	color:#445b7b;
 	background-color:#dcdcdc;
+	transition: width 2s;
+}
+.userInfoTiles:hover {
+	width: 300px;
+    border-radius: 0px 30px 30px 0px;
 }
